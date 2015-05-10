@@ -21,7 +21,7 @@
       png("plot3.png", width=480, height=480)
       
       # set some general parameters for graphics environment  
-      par(lty=1, lwd=1, lend=1, las=1)
+      par(lty=1, lwd=1, lend=1)
 
       # make plots for the three "energy sub-metering" consumption-types:
       with (hh_power_consumption,plot(Sub_metering_1~Date_time, type = "l", ylab="Energy sub metering", xlab="",col="black"))
