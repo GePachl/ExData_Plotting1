@@ -1,5 +1,5 @@
 # Exploratory Data Analysis: Course Project 1
-# Task 1: Creating PNG Plot1 about "Global_active_power: household global minute-averaged active power (in kilowatt)"
+# Task 1: Creating  plot1.r and plot1.png about "Global_active_power: household global minute-averaged active power (in kilowatt)"
 # for days 2007-02-01 (Thu), 2007-02-02 (Fri)" 
 
 # set my working directory
