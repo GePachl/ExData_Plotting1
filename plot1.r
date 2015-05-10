@@ -20,5 +20,5 @@ png("plot1.png", width=480, height=480)
 # use the variable "Global_active_power" from Subset for Histogram
 hist(hh_power_consumption$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency")
 
-# close the png device
+# close the png graphics device
 dev.off()
