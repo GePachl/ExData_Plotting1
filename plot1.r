@@ -14,11 +14,11 @@ hh_power_cons_data$Date <- as.Date(hh_power_cons_data$Date, format="%d/%m/%Y")
 hh_power_consumption <- subset(hh_power_cons_data, hh_power_cons_data$Date == "2007-02-01" | hh_power_cons_data$Date == "2007-02-02")
 
 # create data for plot1 
-hh_power_consumption <- as.numeric(hh_power_consumption$Global_active_power)
+Global_active_power <- as.numeric(hh_power_consumption$Global_active_power)
 
 # open graphics device png and create histogram (also set width of 480 pixels and a height of 480 pixels)
 png("plot1.png", width=480, height=480)
-hist(hh_power_consumption, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency")
+hist(Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency")
 
 # close the png device
 dev.off()
